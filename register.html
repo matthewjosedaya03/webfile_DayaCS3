@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <h3>User Sign Up</h3>
+    <form action="" method="POST">
+        <label>First Name: </label>
+        <input type="text" name="fname" maxlength="32" placeholder="First Name" autofocus required>
+        <br> <br>
+
+        <label>Last Name: </label>
+        <input type="text" name="lname" maxlength="16" placeholder="Last Name" required>
+        <br> <br>
+
+        <label>Username: </label>
+        <input type="text" name="uname" placeholder="Username">
+        <br> <br>
+
+        <label>Password: </label>
+        <input type="password" name="pass" required>
+        <br> <br>
+
+        
+        <label>Civil Status: </label>
+        <select name="cstat">
+            <option value="single">Single</option>
+            <option value="married">Married</option>
+        </select>
+        <br> <br>
+
+        <label>Birthdate: </label>
+        <select name="Month">
+            <option>Month</option>
+            <option value="january">January</option>
+            <option value="february">February</option>
+            <option value="march">March</option>
+            <option value="april">April</option>
+            <option value="may">May</option>
+        </select>
+
+        <select name="Day">
+            <option>Day</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+
+        <select name="Year">
+            <option>Year</option>
+            <option value="2001">2001</option>
+            <option value="2002">2002</option>
+        </select>
+        <br>
+
+        <h3>GENDER: </h3>
+        <input type="radio" value="male" checked>
+        <label>Male</label> &nbsp;
+        <input type="radio" value="female">
+        <label>Female</label>
+
+        <!-- CHECKBOX SELECTION DEMO-->
+        <!--
+            This is a multi-line comment for HMTL.
+        -->
+
+        <h3>GPU</h3>
+        <input type="checkbox" name="1050 Ti">
+        <label>GTX 1050 Ti</label>
+
+        <input type="checkbox" name="1080 Ti">
+        <label>GTX 1080 Ti</label>
+
+        <input type="checkbox" name="RTX 2070 Super">
+        <label>RTX 1080 Ti</label>
+        <br><br>
+
+        <button type="submit" name="register">Register</button>
+        <button type="reset" name="reset">Reset</button>
+        
+
+    </form>
+
+</body>
+</html>
+

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+</head>
+
+<body>
+    <h3>STUDENT REGISTRATION</h3>
+    <form action="" method="post">
+        <label>FIRST NAME: </label>
+        <input type="text" name="fname" maxlength="30" placeholder="F. Name" autofocus required>
+        <label>(max. 30 characters)</label>
+        <br>
+
+        <label>LAST NAME: </label>
+        <input type="text" name="lname" maxlength="30" placeholder="L. Name" required>
+        <label>(max. 30 characters)</label>
+        <br>
+
+        <label>DATE OF BIRTH: </label>
+        <select>
+            <option>Day</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+        </select>
+        
+        <select>
+            <option>Month</option>
+            <option value="January">JANUARY</option>
+            <option value="February">FEBRUARY</option>
+            <option value="March">MARCH</option>
+            <option value="April">APRIL</option>
+            <option value="May">MAY</option>
+            <option value="June">JUNE</option>
+        </select>
+
+        <select>
+            <option>Year</option>
+            <option value="2001">2001</option>
+            <option value="2002">2002</option>
+            <option value="2003">2003</option>
+            <option value="2004">2004</option>
+            <option value="2005">2005</option>
+        </select> <br>
+
+        <label>CITY: </label>
+        <input type="text" name="city" maxlength="30" required>
+        <label>(max. 30 characters)</label>
+        <br>
+
+        <label>PIN CODE: </label>
+        <input type="text" name="pincode" maxlength="6" required>
+        <label>(max. 6 digits)</label>
+        <br>
+
+        <label>STATE: </label>
+        <input type="text" name="state" maxlength="30" required>
+        <label>(max. 30 characters)</label>
+        <br>
+
+        <label>COUNTRY: </label>
+        <input type="text" name="country" maxlength="20" required>
+        <label>(max. 20 characters)</label>
+        <br>
+
+        <label>HOBBIES: </label>
+        <input type="checkbox" name="dancing">
+        <label>Dancing</label>
+        <input type="checkbox" name="drawing">
+        <label>Drawing</label>
+        <input type="checkbox" name="sketching">
+        <label>Sketching</label>
+    </form>
+</body>
+
+</html>
